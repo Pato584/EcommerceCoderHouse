@@ -1,0 +1,51 @@
+
+.carrito h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.carta {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.carta img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carta p {
+  margin: 0 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.boton {
+ 
+  margin-left: auto;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  transition: background-color 0.3s;
+}
+
+.boton:hover {
+  
+  background-color: #157efb;
+}
+  .botoncontinuar{
+    background-color: #157efb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+  }
+
